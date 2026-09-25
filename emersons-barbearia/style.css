@@ -391,7 +391,7 @@ p { margin: 0; }
 .service-photo--2 { background-image: url(./images/barba.jpg); background-position: center 30%; }
 .service-photo--3 { background-image: url(./images/cliente1.png); }
 .service-photo--4 { background-image: url(images/corte-degrade-desenho.jpg); background-position: center 70%; }
-.service-photo--5 { background-image: url(images/hero-cliente.jpg); background-position: center 60%; }
+.service-photo--5 { background-image: url(./images/brown.jpg); background-position: center 60%; }
 .service-photo--6 { background-image: url(images/barbeiro-atendendo.jpg); background-position: center 60%; }
 
 .service-body {
