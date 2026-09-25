@@ -738,9 +738,56 @@ p { margin: 0; }
   transform: translateY(0);
 }
 
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.created-by {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 12px;
+    transition: opacity .3s ease;
+}
+
+.created-by:hover {
+    opacity: .75;
+}
+
+.created-by span {
+    white-space: nowrap;
+}
+
+.created-by img {
+    width: 70px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+
+
 /* ============================================
    RESPONSIVE
    ============================================ */
+
+@media (max-width: 600px) {
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .created-by img {
+        width: 65px;
+    }
+}
+
 @media (max-width: 1024px) {
   .services-grid { grid-template-columns: repeat(2, 1fr); }
   .about, .location { grid-template-columns: 1fr; }
